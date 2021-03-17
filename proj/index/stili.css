@@ -1,0 +1,595 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+  
+}
+
+header{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+header #rsvp{
+    font-family: Mier-A, Helvetica, Arial, sans-serif;
+    color: white;
+    width: 100%;
+    min-height: 200px;
+    margin: 0 auto;
+    background-color: rgb(56, 56, 56);
+    line-height: 20px;
+}
+
+header #rsvp h3{
+    width: 15%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-top: 40px;
+    letter-spacing: 10px;
+}
+header #rsvp p{
+    font-weight: 100;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    
+}
+
+header #rsvp #sposi{
+    background-color:rgb(56, 56, 56) ;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 1.5em;
+}
+
+
+header #sposi{
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+
+}
+
+header #sposi h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3em;
+    font-weight: 100;
+    word-spacing: 20px;
+}
+header #nav{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header #nav ul li {
+    display: inline;
+}
+
+header #nav ul li a{
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+
+header #nav ul li a:hover{
+    color: gray;
+}
+
+
+@media only screen and (max-width: 800px){
+    header #nav{
+        display: none;
+    }
+    header #sposi h2{
+        font-size:2em;
+    }
+}
+
+/*start ham*/
+@media only screen and (min-width: 800px){
+    header #hmbr{
+        display: none;
+    }
+}
+
+header .ham {
+    margin: 10px;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    border: rgb(36, 36, 36) solid 1px;
+    background: white;
+    cursor: pointer;
+  }
+  
+  header .xIcon {
+    display: none;
+  }
+  
+  header  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 270px;
+    background: black;
+    color: white;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    list-style: none;
+    padding-top: 20px;
+  }
+  
+  header .showMenu {
+    transform: translateY(0);
+  }
+  
+  header  .menu li {
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  header  .menuLink {
+    display: block;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  header .menuLink:hover {
+    text-decoration: underline;
+  }
+
+  /*end ham*/
+
+
+/*main index*/
+
+main #picture{
+    width: 100%;
+}
+
+main #picture img{
+    width: 100%;
+    margin-bottom: 15px;
+    border-top: 2px solid rgba(158, 158, 158, 0.705);
+    
+}
+
+main #join{
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Great Vibes', cursive;
+
+}
+main #join p{
+    text-align: center;
+    font-size: 2em;
+
+}
+main #join #please{
+    letter-spacing: 1px;
+    margin: 10px;
+}
+
+
+main #join #date{
+    letter-spacing: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+main #storia{
+    width: 50%;
+    margin: 0 auto;
+}
+
+main #storia h2{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 100;
+    font-size: 2em;
+    margin-bottom: 30px;
+    
+}
+
+main #storia p{
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+}
+
+
+
+
+/*main venus*/
+
+#venues{
+    font-family: 'Great Vibes', cursive;
+}
+
+#venues .event{
+    width: 100%;
+    margin: 0 auto;
+    height: 300px;
+    border-top: 2px solid grey;
+}
+
+#venues .event h2{
+    text-align: center;
+   margin-top: 50px;
+   padding-bottom:50px;
+   font-size: 3em;
+   font-weight: 100;
+}
+
+#venues .event hr{
+    width: 30%;
+    margin: 0 auto;
+}
+
+#venues .drw{
+   width: 100%;
+   margin: 0 auto;
+ 
+   
+}
+#venues .drw img{
+    display: block;
+    max-width: 50%;
+    margin: 0 auto;
+    border: 1px solid rgb(224, 224, 224);
+    box-shadow:1px 1px 5px #8888883a;
+}
+
+#venues .details{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#venues .details h2{
+   font-weight: 100;
+   font-size: 3em;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+#venues .details p{
+    word-spacing: 5px;
+    line-height: 30px;
+}
+#venues .details a{
+    text-decoration: none;
+    color: black;
+    font-family: Mier-A, Helvetica, Arial, sans-serif;
+}
+
+
+/*main replay*/
+
+#replay{
+    font-family: 'Great Vibes', cursive;
+}
+
+#replay .event{
+    width: 100%;
+    margin: 0 auto;
+    height:auto;
+    border-top: 2px solid rgba(128, 128, 128, 0.699);
+}
+
+#replay .event h2{
+    text-align: center;
+   margin-top: 50px;
+   padding-bottom:50px;
+   font-size: 2.5em;
+   font-weight: 100;
+}
+
+#replay .event hr{
+    width: 30%;
+    margin: 0 auto;
+
+}
+
+#replay #your_name {
+    width: 100%;
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+#replay #your_name p{
+    text-align: center;
+
+}
+
+#replay #frm{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+#replay #find{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2em;
+}
+
+#replay #find input{
+    width: 100%;
+    height: 30px;
+    font-family: Mier-A, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+ 
+}
+
+#replay #find #sub{
+    width: 100%;
+    background-color: rgb(17, 17, 24);
+    height: 50px;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    padding: 0;
+    border: 1px solid gray;
+}
+
+
+
+
+/*pop_uno*/
+
+
+#replay #pagina{
+    position: fixed;
+    top:0;
+   background-color: rgba(34, 34, 34, 0.658);
+   width: 100%;
+   height: 100%;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+}
+
+
+
+#replay #pagina .pop_uno{
+   width: 50%;
+   margin:50px auto;
+   background-color: #ffffff;
+   border: solid 2px black;
+   overflow: auto;
+   box-sizing: border-box;
+}
+
+
+#replay #pagina h2{
+  
+   color: black;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 50px;
+   border-bottom: 1PX solid gray;
+}
+
+#replay #pagina .pop_uno p{
+   margin: 20px auto;
+   
+}
+
+
+#replay #pagina #choice{
+ 
+width: 100%;
+margin: 0 auto ;
+text-align: center;
+}
+
+
+
+#replay #pagina .clic{
+    width: 80%;
+    background-color: rgb(17, 17, 24);
+    height: 50px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 0;
+    border: 1px solid gray;
+}
+ 
+#replay #pagina .clic:hover{
+    background-color: rgb(89, 89, 126);
+}
+
+#replay #pagina #not_you{
+    font-size:small;
+}
+#replay #pagina #not_you a{
+   
+    color: black;
+}
+
+#replay h5{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: xx-small;
+}
+
+
+
+
+
+
+
+
+
+
+/*pop_due*/
+
+
+#replay  #pagina_2{
+    overflow:auto;
+    height: auto;
+    position: fixed;
+    top:0;
+   background-color: rgba(34, 34, 34, 0.658);
+   width: 100%;
+   height: 100%;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+  /*transform: translateY(-100%);*/
+  transition: transform 0.3s;
+  display: none;
+}
+
+#replay #pagina_2 .pop_uno {
+    
+    width: 50%;
+    margin:50px auto;
+    background-color: #ffffff;
+    border: solid 2px black;
+    overflow: auto;
+    box-sizing: border-box;
+ }
+
+ #replay  #pagina_2 h2{
+  
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1PX solid rgb(204, 204, 204);
+ }
+
+ #replay  #pagina_2 .pop_uno p{
+    margin: 20px auto;
+    
+ }
+
+
+
+
+
+ #replay #pagina_2 #number_party{
+     width: 100px;
+     height: 30px;
+     text-align: center;
+     margin-bottom: 5px;
+ }
+
+ #replay #pagina_2 .wed_details{
+     width: 50%;
+     height: auto;
+     border: 1px solid rgb(204, 204, 204);
+     box-sizing: border-box;
+     margin: 30px auto;
+ }
+
+ #replay #pagina_2 .wed_details .info{
+     width: 100%;
+     height: 75%;
+     background-color: rgb(231, 231, 231);
+     margin-bottom: 0;
+     margin-top: 20px;
+     border-top: 1px solid rgba(201, 201, 201, 0.575);
+ }
+
+
+ #replay #pagina_2 .wed_details h2{
+     font-size: 1em;
+    border-bottom: 1PX solid rgb(204, 204, 204);
+    margin-bottom: 20px;
+ }
+
+
+ #replay #pagina_2 .wed_details .info p{
+     margin-bottom: 0;
+     width: 70%;
+     padding-bottom:10px ;
+     font-size: small;
+ }
+
+ #replay #pagina_2 .wed_details #email{
+     margin-bottom: 20px;
+    margin-top: 20px;
+    width: 70%;
+     
+ }
+
+ #replay #pagina_2 .clic{
+    width: 80%;
+    background-color: rgb(17, 17, 24);
+    height: 50px;
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 0;
+    border: 1px solid gray;
+}
+ 
+#replay #pagina_2 .clic:hover{
+    background-color: rgb(89, 89, 126);
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+footer{
+    margin-top: 50px;
+}
+
+
+footer #copy{
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    border-top: 1px solid gray;
+
+}
+
+footer #copy h4{
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 25px;
+    font-size: small;
+}
+
+footer #copy p{
+    text-align: center;
+    font-size: small;
+    
+}
